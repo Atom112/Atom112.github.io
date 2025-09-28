@@ -17,6 +17,6 @@ export default defineConfig({
   },
 
   base: process.env.NODE_ENV === 'production'
-    ? '/Atom112.github.io/' // 替换成你的仓库名称，例如：'/my-vue-app/'
+    ? '/' // 替换成你的仓库名称，例如：'/my-vue-app/'
     : '/'
 })
