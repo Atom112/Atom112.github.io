@@ -1,3 +1,5 @@
 <template>
-  <h1>Home Page</h1>
+  <h1>{{ $t('home.welcome_message') }}</h1>
+  <p>{{ $t('home.intro_text') }}</p>
+  <p>abcdefg ABCDEFG</p>
 </template>
